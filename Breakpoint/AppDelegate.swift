@@ -12,11 +12,22 @@ import Firebase
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
+    var window: UIWindow?
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         FirebaseApp.configure()
+     /*
+         //Below code is working in Scene delegate
+        if Auth.auth().currentUser == nil {
+            let storyBoad = UIStoryboard(name: "Main", bundle: Bundle.main)
+            let authVC = storyBoad.instantiateViewController(identifier: "AuthVC")
+            window?.makeKeyAndVisible()
+            window?.rootViewController?.present(authVC, animated: true, completion: nil)
+            
+        }
+ */
         return true
     }
 
