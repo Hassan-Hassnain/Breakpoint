@@ -1,5 +1,5 @@
 //
-//  FirstViewController.swift
+//  SecondViewController.swift
 //  Breakpoint
 //
 //  Created by Usama Sadiq on 2/23/20.
@@ -7,13 +7,12 @@
 //
 
 import UIKit
-import Firebase
 
-class FirstViewController: UIViewController {
+class GroupVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-     
+        // Do any additional setup after loading the view.
     }
 
 
