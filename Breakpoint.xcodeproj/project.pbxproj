@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C9B62432405BBCC00AB0E7E /* meVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9B62422405BBCC00AB0E7E /* meVC.swift */; };
 		3CCCC22B24040D8200AE6BE1 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCCC22A24040D8200AE6BE1 /* DataService.swift */; };
 		3CCCC22D24041F0800AE6BE1 /* AuthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCCC22C24041F0800AE6BE1 /* AuthVC.swift */; };
 		3CCCC22F24041F3F00AE6BE1 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCCC22E24041F3F00AE6BE1 /* LoginVC.swift */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3C9B62422405BBCC00AB0E7E /* meVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meVC.swift; sourceTree = "<group>"; };
 		3CCCC22A24040D8200AE6BE1 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		3CCCC22C24041F0800AE6BE1 /* AuthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthVC.swift; sourceTree = "<group>"; };
 		3CCCC22E24041F3F00AE6BE1 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 				3CD1618E2402D9A000D4027A /* GroupVC.swift */,
 				3CCCC22C24041F0800AE6BE1 /* AuthVC.swift */,
 				3CCCC22E24041F3F00AE6BE1 /* LoginVC.swift */,
+				3C9B62422405BBCC00AB0E7E /* meVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -279,6 +282,7 @@
 				3CCCC22F24041F3F00AE6BE1 /* LoginVC.swift in Sources */,
 				3CCCC23124041F9D00AE6BE1 /* InsetTextField.swift in Sources */,
 				3CD1618D2402D9A000D4027A /* FeedVC.swift in Sources */,
+				3C9B62432405BBCC00AB0E7E /* meVC.swift in Sources */,
 				3CD161892402D9A000D4027A /* AppDelegate.swift in Sources */,
 				3CCCC23524043B3000AE6BE1 /* AuthService.swift in Sources */,
 				3CD1618B2402D9A000D4027A /* SceneDelegate.swift in Sources */,
