@@ -21,7 +21,7 @@ class CreatePostVC: UIViewController {
         super.viewDidLoad()
         
         textView.delegate = self
-        print(Auth.auth().currentUser)
+        sendButton.bindToKeyboard()
         
     }
     
