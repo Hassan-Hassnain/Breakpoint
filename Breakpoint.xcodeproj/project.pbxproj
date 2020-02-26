@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3C6DCEC5240708CC003C58F5 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6DCEC4240708CC003C58F5 /* UIViewExt.swift */; };
+		3C6DCEC7240710A4003C58F5 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C6DCEC6240710A4003C58F5 /* FeedCell.swift */; };
 		3C9B62432405BBCC00AB0E7E /* meVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9B62422405BBCC00AB0E7E /* meVC.swift */; };
 		3C9B62452405C0AC00AB0E7E /* CreatePostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9B62442405C0AC00AB0E7E /* CreatePostVC.swift */; };
 		3CCCC22B24040D8200AE6BE1 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCCC22A24040D8200AE6BE1 /* DataService.swift */; };
@@ -29,6 +30,7 @@
 
 /* Begin PBXFileReference section */
 		3C6DCEC4240708CC003C58F5 /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
+		3C6DCEC6240710A4003C58F5 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		3C9B62422405BBCC00AB0E7E /* meVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = meVC.swift; sourceTree = "<group>"; };
 		3C9B62442405C0AC00AB0E7E /* CreatePostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostVC.swift; sourceTree = "<group>"; };
 		3CCCC22A24040D8200AE6BE1 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 				3CCCC23024041F9D00AE6BE1 /* InsetTextField.swift */,
 				3CCCC2322404245700AE6BE1 /* ShadowView.swift */,
 				3C6DCEC4240708CC003C58F5 /* UIViewExt.swift */,
+				3C6DCEC6240710A4003C58F5 /* FeedCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -289,6 +292,7 @@
 				3CCCC22F24041F3F00AE6BE1 /* LoginVC.swift in Sources */,
 				3CCCC23124041F9D00AE6BE1 /* InsetTextField.swift in Sources */,
 				3CD1618D2402D9A000D4027A /* FeedVC.swift in Sources */,
+				3C6DCEC7240710A4003C58F5 /* FeedCell.swift in Sources */,
 				3C9B62432405BBCC00AB0E7E /* meVC.swift in Sources */,
 				3CD161892402D9A000D4027A /* AppDelegate.swift in Sources */,
 				3C9B62452405C0AC00AB0E7E /* CreatePostVC.swift in Sources */,
