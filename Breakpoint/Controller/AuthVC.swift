@@ -7,23 +7,38 @@
 //
 
 import UIKit
+import Firebase
 
 class AuthVC: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
-    @IBAction func signInWithFacebookButtonWasPressed(_ sender: Any) {
-    }
-    @IBAction func signInWithGoogleButtonWasPressed(_ sender: Any) {
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+      checkUserSignInState()
+        
     }
     @IBAction func signInWithEmailButtonWasPressed(_ sender: Any) {
         let loginVC = (storyboard?.instantiateViewController(withIdentifier: "LoginVC"))!
+        loginVC.modalPresentationStyle = .fullScreen
         present(loginVC, animated: true, completion: nil)
     }
     
-
-
+    @IBAction func signInWithFacebookButtonWasPressed(_ sender: Any) {
+    }
+    
+    @IBAction func signInWithGoogleButtonWasPressed(_ sender: Any) {
+    }
+    
+    func checkUserSignInState() {
+        if Auth.auth().currentUser != nil {
+                  print("AuthVC \(String(describing: Auth.auth().currentUser))")
+                  dismiss(animated: true, completion: nil)
+              } else {
+                  print("Currently no user signed in")
+              }
+    }
+    
 }
