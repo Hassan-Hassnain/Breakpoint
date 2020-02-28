@@ -30,9 +30,6 @@ class CreatePostVC: UIViewController {
     }
 
     @IBAction func sendButtonWasPressed(_ sender: Any) {
-        
-        print("User = \(Auth.auth().currentUser)")
-        
         if textView.text != nil && textView.text != "Say something here ..." {
             sendButton.isEnabled = false
             DataService.instance.uploadPost(withMessage: textView.text, forUID: Auth.auth().currentUser!.uid, withGroupKey: nil) { (isComplete) in
